@@ -16,7 +16,7 @@ class Linguagem{
     }
 
     public static void main(String[] args){
-        Linguagem linguagem = new Linguagem("Portugues", 26000000, "Portugal, Brasil, Angola,Moçambique", "sujeito-verbo-objeto");
+        Linguagem linguagem = new Linguagem("Portugues", 26000000, "Portugal, Brasil", "sujeito-verbo-objeto");
         linguagem.getInfo();
 
         Mayan kiche = new Mayan("Maia", 1000000);
